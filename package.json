@@ -42,7 +42,7 @@
     "webpack-uglify-js-plugin": "^1.1.9"
   },
   "scripts": {
-    "start": "npm run build -- watch -- browser-sync",
+    "start": "npm run build -- watch browser-sync",
     "build": "gulp build",
     "browser": "gulp browser-sync",
     "browserify": "gulp browserify",
