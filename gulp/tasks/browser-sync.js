@@ -8,7 +8,7 @@ gulp.task('browser-sync', function() {
             baseDir: config.docroot
         }
     })
-    gulp.watch(config.assets + "/**/**", function() {
+    gulp.watch(config.docroot + "/**/**", function() {
         browserSync.reload();
     });
 
